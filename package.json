@@ -1,0 +1,23 @@
+{
+  "name": "@gell/todo-list-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo-main-file.js",
+  "type": "module",
+  "bin": {
+    "new-todo-list": "./todo-main-file.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1"
+  }
+}
